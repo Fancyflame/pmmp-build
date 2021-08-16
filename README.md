@@ -9,7 +9,7 @@ This shell should be run on **Android environment** like Termux. This shell **DO
 
 ```shell
 
-# clone official git repository on your current directory
+# clone official git repository to your current directory
 git clone https://github.com/pmmp/php-build-scripts.git
 cd php-build-scripts
 
