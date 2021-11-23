@@ -13,12 +13,8 @@ This shell should be run on **Android environment** like Termux. This shell **DO
 git clone https://github.com/pmmp/php-build-scripts.git
 cd php-build-scripts
 
-# clone this git repository
-git clone https://github.com/Fancyflame/pmmp-build.git
-
-# cover official's compile.sh
-mv pmmp-build/compile.sh .
-rm -r pmmp-build
+# download the script
+curl https://raw.githubusercontent.com/Fancyflame/pmmp-build/main/compile.sh > compile.sh
 
 # compile! (run with 8 threads to make)
 ./compile.sh -j8
