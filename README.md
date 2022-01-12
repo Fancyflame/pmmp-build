@@ -14,7 +14,7 @@ git clone https://github.com/pmmp/php-build-scripts.git
 cd php-build-scripts
 
 # download the script
-curl https://raw.githubusercontent.com/Fancyflame/pmmp-build/main/compile.sh > compile.sh
+curl https://raw.githubusercontent.com/Fancyflame/pmmp-build-android/main/compile.sh > compile.sh
 
 # compile! (run with 8 threads to make)
 ./compile.sh -j8
